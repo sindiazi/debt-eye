@@ -1,0 +1,5 @@
+  <div class="user-profile" *ngIf="userProfile$ | async as user">
+    <p>Name: {{ user.name }}</p>
+    <p>Age: {{ user.age }}</p>
+    <p>Email: {{ user.email }}</p>
+  </div>
